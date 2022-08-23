@@ -16,7 +16,7 @@ a {
 }
 
 body {
-    background-image: linear-gradient( to bottom right, rgb(29, 216, 240),rgb(1, 191, 137));
+    background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
 .container {
@@ -161,3 +161,19 @@ button#equal {
     color: #ffffff;
   }
 
+
+.header{
+    padding-top: 100px;
+    color: #000000;
+    font-family: 'Silkscreen', cursive;
+    font-size: 45px;
+
+}
+
+.header1{
+    padding-top: 10px;
+    color: #000000;
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
+
+}

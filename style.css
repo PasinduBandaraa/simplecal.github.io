@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
     display: grid;
     place-items: center;
@@ -29,7 +29,7 @@ body {
 .calculator {
     position: relative;
     height: auto;
-    width: auto;
+    width: 400px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 30px #000;
@@ -68,11 +68,12 @@ body {
     margin: 0 10px;
     height: 150px;
     width: auto;
-    max-width: 270px;
+    max-width: 370px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
     margin-bottom: 20px;
     overflow-x: scroll;
   }
@@ -84,10 +85,10 @@ body {
 
 button {
     height: 60px;
-    width: 60px;
+    width: 70px;
     border: 0;
-    border-radius: 30px;
-    margin: 5px;
+    border-radius: 35px;
+    margin: 10px;
     font-size: 20px;
     cursor: pointer;
     transition: all 200ms ease;
